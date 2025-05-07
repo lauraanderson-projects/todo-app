@@ -79,6 +79,27 @@ function App() {
         openDialog={openDialog}
         setTodoDetails={setTodoDetails}
       />
+      <footer>
+        This project was coded by{" "}
+        <a href="https://laura-anderson.com/" target="_blank">
+          Laura Anderson
+        </a>
+        , open sourced on{" "}
+        <a
+          href="https://github.com/lauraanderson-projects/todo-app"
+          target="_blank"
+        >
+          GitHub
+        </a>{" "}
+        and hosted on{" "}
+        <a
+          href="https://todo-app-react-materialui.netlify.app/"
+          target="_blank"
+        >
+          Netlify
+        </a>
+        .
+      </footer>
     </div>
   );
 }
